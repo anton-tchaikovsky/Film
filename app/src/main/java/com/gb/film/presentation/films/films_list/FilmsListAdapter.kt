@@ -1,6 +1,5 @@
 package com.gb.film.presentation.films.films_list
 
-import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -28,10 +27,9 @@ class FilmsListAdapter(
     override fun onBindViewHolder(holder: BaseViewHolder, position: Int) =
         holder.bind(filmsList[position])
 
-    @SuppressLint("NotifyDataSetChanged")
     fun setFilmsList(filmsList: List<Result>) {
+        val oldSize = this.filmsList.size
         this.filmsList = filmsList
-        notifyDataSetChanged()
+        notifyItemRangeChanged(oldSize, this.filmsList.size)
     }
-
 }

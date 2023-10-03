@@ -7,6 +7,7 @@ import com.gb.film.presentation.films.FilmsActivity
 import com.gb.film.di.films.modules.RepositoryModule
 import com.gb.film.di.films.modules.DataSourceModule
 import com.gb.film.di.films.modules.FilmsViewModelModule
+import com.gb.film.di.films.modules.NetWorkStatusModule
 import com.gb.film.di.films.modules.RetrofitModule
 import com.gb.film.di.films.modules.SchedulerProviderModule
 import dagger.BindsInstance
@@ -19,7 +20,8 @@ import javax.inject.Singleton
     DataSourceModule::class,
     RepositoryModule::class,
     FilmsViewModelModule::class,
-    SchedulerProviderModule::class
+    SchedulerProviderModule::class,
+    NetWorkStatusModule::class
     ]
 )
 interface AppComponent {

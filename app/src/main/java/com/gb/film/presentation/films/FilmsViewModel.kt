@@ -6,6 +6,8 @@ import com.gb.film.utility.SingleEventLiveData
 interface FilmsViewModel {
     val filmsLiveData: LiveData<FilmsState>
 
+    val isLastPageLiveData: LiveData<Boolean>
+
     val errorLiveData: SingleEventLiveData<String>
 
     fun getFilms()
