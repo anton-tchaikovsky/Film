@@ -1,11 +1,11 @@
-package com.gb.film.presentation.films_list
+package com.gb.film.presentation.films.films_list
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.gb.film.databinding.ItemFilmBinding
-import com.gb.film.domain.entity.Result
+import com.gb.film.domain.entity.films.Result
 
 class FilmsListAdapter(
     private val itemClickListener: (Int) -> Unit

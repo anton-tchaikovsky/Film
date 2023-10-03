@@ -1,4 +1,4 @@
-package com.gb.film.di.modules
+package com.gb.film.di.films.modules
 
 import com.gb.film.data.retrofit.ApiFilms
 import com.gb.film.data.retrofit.ApiFilms.Companion.BASE_URL

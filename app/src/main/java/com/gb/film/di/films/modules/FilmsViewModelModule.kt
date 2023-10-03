@@ -1,8 +1,8 @@
-package com.gb.film.di.modules
+package com.gb.film.di.films.modules
 
 import com.gb.film.data.scheduler_provider.SchedulerProvider
 import com.gb.film.domain.repository.FilmsRepository
-import com.gb.film.presentation.FilmsViewModelFactory
+import com.gb.film.presentation.films.FilmsViewModelFactory
 import dagger.Module
 import dagger.Provides
 

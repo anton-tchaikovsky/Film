@@ -1,4 +1,4 @@
-package com.gb.film.domain.entity
+package com.gb.film.domain.entity.films
 
 import com.google.gson.annotations.SerializedName
 

@@ -5,7 +5,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".presentation.FilmsActivity">
+    tools:context=".presentation.films.FilmsActivity">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/films_recycler_view"

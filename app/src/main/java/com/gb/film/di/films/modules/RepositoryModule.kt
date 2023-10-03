@@ -1,4 +1,4 @@
-package com.gb.film.di.modules
+package com.gb.film.di.films.modules
 
 import com.gb.film.data.repository_impl.FilmsRepositoryImpl
 import com.gb.film.domain.repository.FilmsRepository

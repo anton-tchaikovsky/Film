@@ -1,4 +1,4 @@
-package com.gb.film.di.modules
+package com.gb.film.di.films.modules
 
 import com.gb.film.data.data_source.RemoteDataSource
 import com.gb.film.data.data_source.RemoteDataSourceImpl

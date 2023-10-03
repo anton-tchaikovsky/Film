@@ -1,4 +1,4 @@
-package com.gb.film.presentation
+package com.gb.film.presentation.films
 
 import androidx.lifecycle.LiveData
 import com.gb.film.utility.SingleEventLiveData
